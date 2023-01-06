@@ -38,55 +38,63 @@
 
 </head>
 
-<body>
+<body style="margin-top: 10%;">
     <h4 style="text-align: center;">What inspired this project.</h4>
     <div style="margin: 0% 10% 10% 10%; text-align: justify;">
         <p>The idea for Gojo-Afalagi was inspired by the need for a more user-friendly and efficient platform for
             renting houses. As a software developer, I saw firsthand the challenges that can arise when trying to rent a
             house through traditional means.
             From finding locally to negotiating with brokers, the process can be frustrating and time-consuming. While
-            considering these problems, I had the chance to work on <a href="https://www.alxafrica.com/">Alx's</a> portfolio project, so I decided to take
+            considering these problems, I had the chance to work on <a href="https://www.alxafrica.com/">Alx's</a>
+            portfolio project, so I decided to take
             matters into my own hands and create a solution that would make it easier for people to find and rent the
             perfect home.
             I used my skills in web development and Python to create Gojo-Afalagi, a platform that streamlines the
             rental process and provides users with a convenient and hassle-free experience.
         </p>
-        <li><img class="social" src="images/github.png"> <a style="text-align: center;" href="https://github.com/EzekielMisgae/Gojo-Afalagi">Github link for Gojo-Afalagi</a></li>
+        <li><img class="social" src="images/github.png"> <a style="text-align: center;"
+                href="https://github.com/EzekielMisgae/Gojo-Afalagi">Github link for Gojo-Afalagi</a></li>
     </div>
     <br>
-    <h4 style="text-align: center;">About me</h4>
+
     <div class="container">
         <div class="row">
             <div class="col-md-3">
                 <div class="card card-body h-100  border-info" id="profile-wrapper">
-                    <img id="profile-pic" src="images/aa.jpg">
+                    <img id="profile-pic" src="{% static 'images/aa.jpg' %}">
                     <hr>
                     <h4>Hi I'm Ezekiel!</h4>
-                    <p>I love coding. I’m a freelance full-stack developer.</p>
+                    <p>I love coding. I’m a full-stack developer and student at Alx.</p>
                 </div>
             </div>
 
             <div class="col-md-9">
                 <div class="card card-body h-100  border-info">
-                    <h4>My First Job as a Developer</h4>
+                    <h4>Let me introduce myself</h4>
                     <hr>
-                    <p>3 months after writing my first Hello World program on September 8th 2017 (While working in the
-                        marketing department) I had convinced my boss to let me take a stab at building a better version
-                        of the outdated laboratory management system my company was running on.</p>
+                    <p>Hi! My name is Ezekiel and I am a beginner software engineer with a passion for back-end
+                        development. I am currently pursuing a degree in Software Engineering at Bahirdar Institute of
+                        Technology and am excited to dive into the world of software engineering.</p>
 
-                    <p>Before I knew it we transitioned from the old system and we're on to mine. My newbie self was now
-                        in charge of hosting hundreds of thousands of lab samples and supporting thousands of clients.
-                    </p>
+                    <p>I am currently enrolled in the Alx Africa or Holberton School program to further my knowledge and
+                        skills in full-stack development. I am particularly interested in learning about back-end
+                        development which includes databases, web servers, and API development.</p>
 
-                    <p>From this you’ll see that I’m someone that jumps before I can talk myself out of doing something
-                        scary.</p>
+                    <p>In my free time, I enjoy tinkering with new technologies and building small projects to expand my
+                        knowledge and capabilities. I am a fast learner and always looking for opportunities to improve
+                        my skills and contribute to the tech community.</p>
+
+                    <p>I am eager to start my career as a software engineer and use my skills to create innovative
+                        solutions for real-world problems. I am confident that my education and passion for back-end
+                        development will make me a valuable asset to any team.</p>
 
                     <ul class="social-links">
-                        <li><img class="social" src="images/github.png" href="https://github.com/EzekielMisgae"></li>
-                        <li><img class="social" src="images/linkedin.png"
+                        <li><img class="social" src="{% static 'images/github.png' %}"
+                                href="https://github.com/EzekielMisgae"></li>
+                        <li><img class="social" src="{% static 'images/linkedin.png' %}"
                                 href="https://www.linkedin.com/in/ezekielmisgae"></li>
-                        <li><img class="social" src="images/twitter.png" href="https://twitter.com/EzekielMisganaw">
-                        </li>
+                        <li><img class="social" src="{% static 'images/twitter.png' %}"
+                                href="https://twitter.com/EzekielMisganaw"></li>
                     </ul>
 
                 </div>
@@ -96,48 +104,33 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="card card-body h-100">
-                    <h5>My Experience as a Developer</h5>
-                    <hr>
-                    <p>Full stack developer at FOI laboratories.</p>
-                    <p>Designed, built and managed a lab management system as a sole developer. System supported
-                        thousands of customers with a UI for Lab Admins and a customer dashboard.</p>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="card card-body h-100">
                     <h5>What I Know</h5>
                     <hr>
-                    <p>Python, Django, HTML/CSS, JavaScript/Jquery, React, Postgres, APIs and a whole bunch more I can’t possibly mention in one sentence! ;)</p>
-                    <p>PS: Working on Node JS, Mongo DB and Machine Learning.</p>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card card-body h-100">
-                    <h5>How I Learn</h5>
-                    <hr>
-                    <p>Build Ugly Prototypes First.</p>
+                    <p>My skills include a strong foundation in programming languages such as Python and C, as well as
+                        an understanding of basic database management and front-end development.</p>
+                    <p>I am excited to continue my learning journey and take on new challenges in the field of software
+                        engineering.</p>
 
-                    <p>I can learn just about anything by having a final product to tear apart piece by piece. I break
-                        the code where I need to figure out why things work the way they do. Documentation is just a
-                        reference.</p>
                 </div>
             </div>
 
             <div class="col-md-6">
                 <div class="card card-body h-100">
-                    <h5>My Short Term Goals</h5>
+                    <h5>My Goals</h5>
                     <hr>
-                    <p>I’m ready to learn something new. I'll
-                        collaborate and share my experience with others.</p>
-                    <p>Aside from building small projects I would love to enter a position where I can be part of a
-                        bigger team & learn from others with more experience than myself.</p>
+                    <p>Complete a small project: such as building a simple application or creating a website. This will
+                        help me to practice my
+                        skills and apply what I have learned.</p>
+
+                    <p>Learn about version control: such as Git and understand how to use them to manage code changes.
+                    </p>
+
+                    <p>Understand data structures and algorithms: such as arrays, lists, and trees, and understand how
+                        to implement them in code.</p>
 
                 </div>
             </div>
+            <a href="https://github.com/EzekielMisgae">GitHub Repo</a>
         </div>
         <br>
     </div>
